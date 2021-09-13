@@ -16,8 +16,13 @@ import arrow from "../../../assets/vectors/arrowRight.svg";
 import sectionSixImg from "../../../assets/images/sectionSixImg.png";
 import plus from "../../../assets/vectors/purplePlus.svg";
 import Footer from "../../GeneralComponents/Footer/footer";
+import { useHistory } from "react-router";
 
 const Home = () => {
+  let history = useHistory();
+  const applyForPremium = () => {
+    return history.push("/premium")
+  }
   return (
     <>
       <NavBar />
@@ -163,7 +168,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <button className="appBtnFill homeSectionFiveBtn">
+        <button className="appBtnFill homeSectionFiveBtn" onClick={applyForPremium}>
           Apply for Premium <img src={arrow} alt="right arrow" />{" "}
         </button>
       </div>
