@@ -56,6 +56,12 @@ html {
   color: #fff;
   border: 1px solid #5D3FD3;
 }
+.appBtnOutline {
+  background: #fff;
+  color: #fff;
+  border: 1px solid #5D3FD3;
+  color: #5D3FD3;
+}
 .internify-input {
   border: 2px solid #c4c4c4;
     border-radius: 8px;

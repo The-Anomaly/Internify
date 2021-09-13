@@ -2,8 +2,16 @@ import * as React from "react"
 import "./navbar.css"
 import logo from "../../../assets/internifyLogo.png"
 import search from "../../../assets/vectors/searchIcon.svg"
+import { useHistory } from "react-router"
 
 const NavBar = () => {
+  let history = useHistory()
+  const register = () => {
+    return history.push("/register")
+  }
+  const login = () => {
+    return history.push("/login")
+  }
     return (
         <>
           <div className="generalContainer navContainer">
@@ -19,8 +27,8 @@ const NavBar = () => {
               </nav>
               <div className="nav-btnsec">
                 <img src={search} />
-                <button>Login</button>
-                <button className="appBtnFill ">Register</button>
+                <button onClick={login}>Login</button>
+                <button onClick={register} className="appBtnFill ">Register</button>
               </div>
           </div></div>
         </>
