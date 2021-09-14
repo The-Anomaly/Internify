@@ -12,6 +12,9 @@ const NavBar = () => {
   const login = () => {
     return history.push("/login")
   }
+  const blog = () => {
+    return history.push("/blog")
+  }
     return (
         <>
           <div className="generalContainer navContainer">
@@ -20,7 +23,7 @@ const NavBar = () => {
                 <img src={logo} alt="internify logo" /><h2>INTERNIFY</h2>
               </div>
               <nav className="nav-itemswrap">
-                <span>Blog</span>
+                <span onClick={blog}>Blog</span>
                 <span>About</span>
                 <span>Support</span>
                 <span>FAQ</span>

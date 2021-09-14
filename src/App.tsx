@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
+import Blog from "./Components/Routes/Blog/blog";
+import BlogDetails from "./Components/Routes/BlogDetails/details";
 import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
@@ -15,6 +17,8 @@ class App extends Component {
               <Route exact path="/premium" component={Premium} />
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
+              <Route exact path="/blog" component={Blog} />
+              <Route exact path="/blog/:name" component={BlogDetails} />
             </Switch>
           </BrowserRouter>
         </div>

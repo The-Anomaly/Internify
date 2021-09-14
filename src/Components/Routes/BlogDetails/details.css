@@ -1,0 +1,17 @@
+.blog-details {
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    margin: auto;
+    max-width: 1100px;
+}
+.details-item {
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.details-item .blog-item-ttl {
+    font-size: 26px;
+    margin-top: 15%;
+}
+.details-txt {
+    font-size: 18px;
+}
