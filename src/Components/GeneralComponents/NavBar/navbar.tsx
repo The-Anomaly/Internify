@@ -15,6 +15,9 @@ const NavBar = () => {
   const blog = () => {
     return history.push("/blog")
   }
+  const support = () => {
+    return history.push("/support")
+  }
     return (
         <>
           <div className="generalContainer navContainer">
@@ -25,7 +28,7 @@ const NavBar = () => {
               <nav className="nav-itemswrap">
                 <span onClick={blog}>Blog</span>
                 <span>About</span>
-                <span>Support</span>
+                <span onClick={support}>Support</span>
                 <span>FAQ</span>
               </nav>
               <div className="nav-btnsec">

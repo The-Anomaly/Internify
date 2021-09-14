@@ -6,6 +6,7 @@ import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
 import Register from "./Components/Routes/Register/register";
+import Support from "./Components/Routes/Support/support";
 
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/blog" component={Blog} />
-              <Route exact path="/blog/:name" component={BlogDetails} />
+              <Route exact path="/blog/:id" component={BlogDetails} />
+              <Route exact path="/support" component={Support} />
             </Switch>
           </BrowserRouter>
         </div>
