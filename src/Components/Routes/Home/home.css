@@ -168,11 +168,11 @@
     background: #fff;
     border-radius: 8px;
     padding: 1rem 0;
-    max-width: 800px;
+    max-width: 600px;
 }
 .homeSectionFiveListHd {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    /* grid-template-columns: 3fr 1fr 1fr; */
     border-bottom: 2px solid #5D3FD3;
     padding: 10px 2rem;
     margin-bottom: 1.5rem;
@@ -182,7 +182,7 @@
 }
 .homeSectionFiveListItem {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    /* grid-template-columns: 3fr 1fr 1fr; */
     padding: 4px 0;
     font-size: 20px;
 }

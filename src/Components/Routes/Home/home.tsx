@@ -112,64 +112,64 @@ const Home = () => {
         </h1>
         <div className="homeSectionFiveListWrap">
           <div className="homeSectionFiveListHd">
-            <h5>Features</h5>
-            <h5>Free</h5>
-            <h5>Premium</h5>
+            <h5>What we offer</h5>
+            {/* <h5>Free</h5>
+            <h5>Premium</h5> */}
           </div>
           <ul className="homeSectionFiveList">
             <li>
               <div className="homeSectionFiveListItem">
                 <p>Unlimited job search results</p>
-                <img src={notick} />
-                <img src={tick} />
+                {/* <img src={notick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
                 <p>Affiliate marketing job</p>
-                <img src={notick} />
-                <img src={tick} />
+                {/* <img src={notick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
                 <p>Availability to blog posts</p>
-                <img src={tick} />
-                <img src={tick} />
+                {/* <img src={tick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
                 <p>Ability to create CV</p>
-                <img src={notick} />
-                <img src={tick} />
+                {/* <img src={notick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
                 <p>CV exposure</p>
-                <img src={tick} />
-                <img src={tick} />
+                {/* <img src={tick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
                 <p>Access to Skill courses</p>
-                <img src={notick} />
-                <img src={tick} />
+                {/* <img src={notick} />
+                <img src={tick} /> */}
               </div>
             </li>
             <li>
               <div className="homeSectionFiveListItem">
-                <p>Webinars with educationist</p>
-                <img src={notick} />
-                <img src={tick} />
+                <p>Webinars with educationists</p>
+                {/* <img src={notick} />
+                <img src={tick} /> */}
               </div>
             </li>
           </ul>
         </div>
         <button className="appBtnFill homeSectionFiveBtn" onClick={applyForPremium}>
-          Apply for Premium <img src={arrow} alt="right arrow" />{" "}
+          Apply <img src={arrow} alt="right arrow" />{" "}
         </button>
       </div>
       <div className="homeSectionSix generalContainer">

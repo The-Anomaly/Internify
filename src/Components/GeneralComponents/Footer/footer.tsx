@@ -18,7 +18,7 @@ const Footer = () => {
             <h2>INTERNIFY</h2>
           </div>
           <p className="footer-txt">
-            :Internify Network is the first Nigerian System created to help
+            Internify Network is the first Nigerian System created to help
             Nigerian students get internship opportunities across Nigeria in
             different Nigerian Companies.
           </p>
