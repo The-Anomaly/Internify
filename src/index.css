@@ -68,3 +68,6 @@ html {
     padding-left: 1rem;
     height: 40px;
 }
+input {
+  outline: none !important;
+}

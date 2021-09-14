@@ -12,11 +12,11 @@ const Login = () => {
     }
     return (
         <>
-            <div className="register-wrap">
+            <div className="register-wrap login-wrap">
                 <div className="register-info login-info">
                     <img className="register-info-img" src={logo} alt="" />
                     <h3 className="register-ttl">LOGIN TO INTERNIFY</h3>
-                    <p className="register-txt">Not yet registered?  <span onClick={register}>Registered</span></p>
+                    <p className="register-txt">Not yet registered?  <span onClick={register}>Register</span></p>
                     <form className="register-form">
                         <input className="internify-input register-input" type="text" placeholder="Username/Email:" />
                         <input className="internify-input register-input" type="password" placeholder="Password:" />

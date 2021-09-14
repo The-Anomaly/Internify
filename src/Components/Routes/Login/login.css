@@ -1,6 +1,8 @@
+.login-wrap {
+    width: 60% !important;
+}
 .login-info input {
-    margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-bottom: 3.5rem;
 }
 .login-info .register-form-btnsec {
     margin-bottom: 2rem;
