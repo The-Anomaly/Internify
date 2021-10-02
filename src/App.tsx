@@ -7,6 +7,8 @@ import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
 import Register from "./Components/Routes/Register/register";
+import SearchResult from "./Components/Routes/SearchResult";
+import Details from "./Components/Routes/SearchResultDetails";
 import Support from "./Components/Routes/Support/support";
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
               <Route exact path="/blog/:id" component={BlogDetails} />
               <Route exact path="/support" component={Support} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/search" component={SearchResult} />
+              <Route exact path="/search/:id" component={Details} />
             </Switch>
           </BrowserRouter>
         </div>
