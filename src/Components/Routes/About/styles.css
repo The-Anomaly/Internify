@@ -1,0 +1,142 @@
+.aboutSectionOne {
+    padding-top: 6rem;
+}
+.aboutSectionOneTtl {
+    padding: 0 1rem;
+    text-align: center;
+    max-width: 510px;
+    margin: auto
+}
+.aboutSectionOneImgSec {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutSectionOneImgSec img {
+    width: 100%;
+    height: 100%
+}
+.aboutSectionOneImgSec > div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.aboutSectionOneImgSec > div > img {
+    height: 48%;
+}
+.aboutSectionTwo {
+    padding-top: 5rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5rem;
+}
+.purplebg {
+    position: absolute;
+    background: #c0aedd;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: -5rem;
+    z-index: -1;
+}
+.aboutSectionTwoTtl {
+    text-align: center;
+}
+.aboutTeamWrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.aboutTeamItem {
+
+}
+.aboutTeamItem img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.aboutTeamItem p:first-of-type {
+    margin: 10px 0 2px;
+    font-weight: 600;
+}
+.aboutTeamItem p:last-of-type {
+    font-size: 14px;
+}
+.aboutSectionThree {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.aboutSectionThreeTtl {
+    text-align: center;
+}
+.aboutSectionThreeWrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background: #f0f0f0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.aboutSectionThreeItem {
+    max-width: 250px;
+    margin: auto;
+}
+.aboutSectionThreeItem h3 {
+    margin-bottom: 5px;
+}
+.aboutSectionThreeItem hr {
+    border-color: #5D3FD3;
+    height: 3px;
+    background: #5D3FD3;
+    width: 70%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.aboutSectionThreeItem p {
+    text-align: justify;
+}
+.aboutSectionFour {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.aboutSectionFourTtl {
+    text-align: center;
+}
+.aboutSectionFourForm {
+    display: flex;
+    border: 2px solid #C4C4C4;
+    border-radius: 12px;
+    margin: 3rem auto;
+    max-width: 700px;
+    padding: 3rem
+}
+.aboutInputSec {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 2rem;
+}
+.aboutSectionFourLabel {
+    margin-bottom: 1.5rem;
+}
+.aboutInput {
+    width: 100%;
+}
+.aboutTextarea {
+    width: 100%;
+    background: #DCDCDC;
+    border: none;
+    height: 90%;
+    border-radius: 12px;
+}
+.fillHalf {
+    width: 50%;
+}
