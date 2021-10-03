@@ -1,53 +1,93 @@
 .navContainer {
-    background: #2A2E39;
-    color: #fff;
-    position: relative;
-    z-index: 1;
+  background: #2a2e39;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 .nav-desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
 }
 .nav-logosec {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .nav-logosec h2 {
-    margin: 0;
+  margin: 0;
 }
 .nav-logosec img {
-    width: 56px;
+  width: 56px;
 }
 .nav-itemswrap {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Roboto Condensed';
-    font-size: 21px;
-    width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  width: 300px;
 }
 .nav-itemswrap span {
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-items {
-    
 }
 .nav-btnsec {
-    font-family: 'Roboto Condensed';
-    width: 220px;
-    display: flex;
-    justify-content: space-between;
+  font-family: "Roboto Condensed";
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
 }
 .nav-btnsec button {
-    border-radius: 10px;
-    padding: 5px 1rem;
-    height: 46px;
-    font-size: 18px;
-    font-family: inherit;
+  border-radius: 10px;
+  padding: 5px 1rem;
+  height: 46px;
+  font-size: 18px;
+  font-family: inherit;
 }
 .nav-btnsec button:first-of-type {
-    color: #fff;
-    border: none;
-    background: transparent;
+  color: #fff;
+  border: none;
+  background: transparent;
+}
+.nav-mobile {
+  display: none;
+}
+.nav-mobile-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: transparent;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+@media screen and (max-width: 900px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .nav-ctrl {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-logo {
+    width: 40px;
+  }
+  .nav-mobile-btn {
+    height: 44px;
+    width: 120px;
+    border-radius: 8px;
+  }
 }
