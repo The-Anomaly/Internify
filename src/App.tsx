@@ -14,8 +14,7 @@ import SearchResult from "./Components/Routes/SearchResult";
 import Details from "./Components/Routes/SearchResultDetails";
 import Support from "./Components/Routes/Support/support";
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
         <div>
           <BrowserRouter>
@@ -37,6 +36,5 @@ class App extends Component {
           </BrowserRouter>
         </div>
     );
-  }
 }
 export default App;

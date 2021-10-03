@@ -73,3 +73,16 @@ html {
 input {
   outline: none !important;
 }
+
+@media screen and (max-width: 1000px) {
+  .generalContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .generalContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
