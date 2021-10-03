@@ -7,6 +7,7 @@ import Create from "./Components/Routes/createCV";
 import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
+import Preview from "./Components/Routes/previewCV";
 import Register from "./Components/Routes/Register/register";
 import SearchResult from "./Components/Routes/SearchResult";
 import Details from "./Components/Routes/SearchResultDetails";
@@ -29,6 +30,7 @@ class App extends Component {
               <Route exact path="/search" component={SearchResult} />
               <Route exact path="/search/:id" component={Details} />
               <Route exact path="/cv/create" component={Create} />
+              <Route exact path="/cv/preview" component={Preview} />
             </Switch>
           </BrowserRouter>
         </div>

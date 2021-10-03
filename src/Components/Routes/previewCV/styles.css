@@ -1,0 +1,114 @@
+.previewContainer {
+  display: flex;
+  margin: auto;
+  width: 720px;
+  font-family: "Roboto Condensed";
+  position: relative;
+}
+.previewContainer1 {
+  background-image: url("../../../assets/vectors/leftSquare.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding: 1.5rem;
+  width: 50%;
+}
+.previewContainer2 {
+  background-image: url("../../../assets/vectors/rightSquare.svg");
+  background-color: #c3b1e1;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  padding: 1.5rem;
+  width: 50%;
+}
+.previewTtl1 {
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-top: 8rem;
+  text-transform: uppercase;
+}
+.previewTxt1 {
+  color: #606060;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.previewTxt2 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.previewTxt3 {
+  color: #606060;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.previewTxt4 {
+}
+.experience1 {
+  margin-bottom: 2.5rem;
+}
+.previewTtl2 {
+  font-family: "Josefin Sans";
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+.previewList {
+  list-style-type: "* ";
+  line-height: 2;
+  padding-left: 1rem;
+  margin-bottom: 7rem;
+}
+.previewList li {
+  padding-left: 8px;
+}
+.previewBottom {
+  width: fit-content;
+  bottom: 5px;
+  position: absolute;
+  right: 43.5%;
+}
+.previewBottom span {
+  color: #5d3fd3;
+}
+.previewBottom img {
+  width: 26px;
+}
+.previewTtl3 {
+    font-family: 'Josefin Sans';
+    transform: skewX(
+-8deg);
+    line-height: 1;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+.previewLargeText {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.previewMarg {
+    margin-top: 3rem;
+}
+.previewTtl4 {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    /* padding-bottom: 1rem; */
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.previewTtl5 {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    margin-top: 3.2rem;
+    font-size: 22px;
+}
+.bottomMarg {
+    margin-bottom: 2.5rem;
+}
+.previewEdu {
+    margin-bottom: 1.5rem;
+}
