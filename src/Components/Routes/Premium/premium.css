@@ -8,6 +8,7 @@
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 5rem;
+    padding-left: 3rem;
 }
 .premiumsectionOneTtl span {
     display: block;
@@ -84,4 +85,45 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 800px) {
+    .premiumsectionOneTtl {
+        font-size: 2rem;
+    }
+    .premiumsectionOneInfo {
+        width: 100%;
+    }
+    .premiumsectionOneImg {
+        display: none;
+    }
+    .premiumsectionOne {
+        padding-bottom:  0;
+    }
+    .premiumSectionTwoForm {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .premiumsectionOneTtl {
+        font-size: 1.6rem;
+        margin-bottom: 3.5rem;
+    }
+    .premiumSectionTwoForm {
+        padding: 1rem 1.5rem;
+    }
+    .premiumsectionOneInfottl {
+        font-size: 1.3rem;
+    }
+    .premiumsectionOneInfoListItemHd {
+        font-size: 1.1rem;
+    }
+    .premiumsectionOneInfoListItemTxt {
+        font-size: 15px;
+    }
+    .premiumsectionOneInfoList li {
+        padding-bottom: 5px;
+    }
 }
