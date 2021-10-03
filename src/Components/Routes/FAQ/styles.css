@@ -1,82 +1,119 @@
 .faqBg {
-
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 .faqContainer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .faqContainerTtl {
-    color: #5D3FD3;
-    text-align: center;
+  color: #5d3fd3;
+  text-align: center;
 }
 .faqSectionOneWrap {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem auto;
-    max-width: 750px;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 750px;
 }
 .faqSectionOneItem {
-    text-align: center;
-    border: 1px solid #c4c4c4;
-    padding: 1rem 1.2rem;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  padding: 1rem 1.2rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .faqSectionOneItem img {
-    width: 26px;
+  width: 26px;
 }
 .faqSectionOneItem p {
-    margin-bottom: 0;
-    margin-top: 1rem;
-    font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-weight: 600;
 }
 .faqAccordionWrap {
-    max-width: 700px;
-    margin: auto;
-    padding: 3rem 0;
+  max-width: 700px;
+  margin: auto;
+  padding: 3rem 0;
 }
 .faqToggle {
-    background: #F5F5F5;
-    border: 2px solid #C4C4C4;
-    border-radius: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.8rem 1.5rem;
-    font-size: 18px;
-    margin-top: 1rem;
+  background: #f5f5f5;
+  border: 2px solid #c4c4c4;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1.5rem;
+  font-size: 18px;
+  margin-top: 1rem;
 }
 .faqToggle span:last-of-type {
-    color: #5D3FD3;
-    font-size: 3rem;
-    line-height: 0.5;
-    font-weight: 300;
+  color: #5d3fd3;
+  font-size: 3rem;
+  line-height: 0.5;
+  font-weight: 300;
 }
 .faqBody {
-    
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
-    color: #696767
-
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  color: #696767;
 }
 .faqBody > div {
-    background: #F5F5F5;
-    border: 2px solid #C4C4C4;
-    border-radius: 10px;
-    padding: 1.2rem 1.5rem;
-    margin-top: 1rem;
-
+  background: #f5f5f5;
+  border: 2px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin-top: 1rem;
 }
 .faqTtl {
-    text-align: center;
-    color: #5D3FD3;
+  text-align: center;
+  color: #5d3fd3;
 }
 .faqTxt {
-    text-align: center;
-    max-width: 400px;
-    margin: auto;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .faqSectionOneWrap {
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .faqSectionOneItem {
+    min-width: 250px;
+    margin-right: 2rem;
+  }
+  .faqContainerTtl {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .faqContainerTtl {
+    padding-bottom: 1rem;
+  }
+  .faqToggle {
+    font-size: 16px;
+  }
+  .faqBody > div {
+    padding: 1rem;
+  }
+  .faqToggle {
+    padding: 0.6rem 1rem;
+  }
+  .faqToggle span:last-of-type {
+    font-size: 2.5rem;
+  }
+  .faqTtl {
+    font-size: 1.3rem;
+  }
+  .faqTxt {
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }

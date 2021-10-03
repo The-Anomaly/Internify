@@ -22,15 +22,15 @@ const FAQ = () => {
           </div>
           <div className="faqSectionOneItem">
             <img src={pricing} alt="" />
-            <p>Getting Started</p>
+            <p>Pricing & Plans</p>
           </div>
           <div className="faqSectionOneItem">
             <img src={bag} alt="" />
-            <p>Getting Started</p>
+            <p>Sales Questions</p>
           </div>
           <div className="faqSectionOneItem">
             <img src={book} alt="" />
-            <p>Getting Started</p>
+            <p>Usage Guides</p>
           </div>
         </div>
         <div className="faqAccordionWrap">
