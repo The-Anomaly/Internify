@@ -1,7 +1,7 @@
 import * as React from "react"
 import "./navbar.css"
 import logo from "../../../assets/internifyLogo.png"
-import search from "../../../assets/vectors/searchIcon.svg"
+import searchicon from "../../../assets/vectors/searchIcon.svg"
 import { useHistory } from "react-router"
 
 const NavBar = () => {
@@ -27,6 +27,9 @@ const NavBar = () => {
   const faq = () => {
     return history.push("/faq")
   }
+  const search = () => {
+    return history.push("/search")
+  }
     return (
         <>
         <div className="navContainer">
@@ -42,7 +45,7 @@ const NavBar = () => {
                 <span onClick={faq}>FAQ</span>
               </nav>
               <div className="nav-btnsec">
-                <img src={search} />
+                <img role="button" onClick={search} src={searchicon} alt="search icon" />
                 <button onClick={login}>Login</button>
                 <button onClick={register} className="appBtnFill ">Register</button>
               </div>

@@ -7,9 +7,14 @@ import filter from "../../../assets/vectors/filter.svg";
 import sort from "../../../assets/vectors/sort.svg";
 import result from "../../../assets/images/searchImg.png";
 import arrow from "../../../assets/vectors/arrowUp.svg";
+import { useHistory } from "react-router";
 
 
 const SearchResult = () => {
+    let history = useHistory();
+    const details = () => {
+        history.push("/search/details/")
+    }
   return (
     <>
       <NavBar />
@@ -36,6 +41,7 @@ const SearchResult = () => {
             <span>Computer studies</span>
           </div>
         </div>
+        <hr className="searchLine" />
         <div className="searchSectionTwo generalContainer">
           <div className="searchSectionTwoFilter">
             <span>
@@ -47,7 +53,7 @@ const SearchResult = () => {
               Sort
             </span>
           </div>
-          <div className="searchResultCard">
+          <div className="searchResultCard" onClick={details} role="button">
               <p className="searchResultCardTxt1" >Catergory: Computer Engineering</p>
               <div className="searchResultCard2" >
                   <img className="searchResultCardImg" src={result} alt="" />
@@ -58,7 +64,7 @@ const SearchResult = () => {
                   </div>
               </div>
           </div>
-          <div className="searchResultCard">
+          <div className="searchResultCard" onClick={details} role="button">
               <p className="searchResultCardTxt1" >Catergory: Computer Engineering</p>
               <div className="searchResultCard2" >
                   <img className="searchResultCardImg" src={result} alt="" />
@@ -69,7 +75,7 @@ const SearchResult = () => {
                   </div>
               </div>
           </div>
-          <div className="searchResultCard">
+          <div className="searchResultCard" onClick={details} role="button">
               <p className="searchResultCardTxt1" >Catergory: Computer Engineering</p>
               <div className="searchResultCard2" >
                   <img className="searchResultCardImg" src={result} alt="" />

@@ -4,7 +4,12 @@
 .searchSectionOne {
     padding-top: 4rem;
     padding-bottom: 2rem;
-    border-bottom: 2px solid #5D3FD3;
+}
+.searchLine {
+    background: #5D3FD3;
+    border-color:#5D3FD3;
+    height: 1px;
+    margin: 0;
 }
 .searchSectionOneInputWrap {
     position: relative;
