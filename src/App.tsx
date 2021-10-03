@@ -3,6 +3,7 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import About from "./Components/Routes/About";
 import Blog from "./Components/Routes/Blog/blog";
 import BlogDetails from "./Components/Routes/BlogDetails/details";
+import Create from "./Components/Routes/createCV";
 import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
@@ -27,6 +28,7 @@ class App extends Component {
               <Route exact path="/about" component={About} />
               <Route exact path="/search" component={SearchResult} />
               <Route exact path="/search/:id" component={Details} />
+              <Route exact path="/cv/create" component={Create} />
             </Switch>
           </BrowserRouter>
         </div>
