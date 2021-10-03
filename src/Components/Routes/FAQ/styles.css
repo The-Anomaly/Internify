@@ -1,0 +1,79 @@
+.faqContainer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f5f5f5;
+}
+.faqContainerTtl {
+    color: #5D3FD3;
+    text-align: center;
+}
+.faqSectionOneWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 750px;
+}
+.faqSectionOneItem {
+    text-align: center;
+    border: 1px solid #c4c4c4;
+    padding: 1rem 1.2rem;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.faqSectionOneItem img {
+    width: 26px;
+}
+.faqSectionOneItem p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.faqAccordionWrap {
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem 0;
+}
+.faqToggle {
+    background: #F5F5F5;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1.5rem;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.faqToggle span:last-of-type {
+    color: #5D3FD3;
+    font-size: 3rem;
+    line-height: 0.5;
+    font-weight: 300;
+}
+.faqBody {
+    
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    color: #696767
+
+}
+.faqBody > div {
+    background: #F5F5F5;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1rem;
+
+}
+.faqTtl {
+    text-align: center;
+    color: #5D3FD3;
+}
+.faqTxt {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}

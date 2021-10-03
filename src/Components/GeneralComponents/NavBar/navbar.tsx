@@ -21,18 +21,24 @@ const NavBar = () => {
   const about = () => {
     return history.push("/about")
   }
+  const home = () => {
+    return history.push("/")
+  }
+  const faq = () => {
+    return history.push("/faq")
+  }
     return (
         <>
           <div className="generalContainer navContainer">
             <div className="nav-desktop">
-              <div className="nav-logosec">
+              <div role="button" onClick={home}  className="nav-logosec">
                 <img src={logo} alt="internify logo" /><h2>INTERNIFY</h2>
               </div>
               <nav className="nav-itemswrap">
                 <span onClick={blog}>Blog</span>
                 <span onClick={about}>About</span>
                 <span onClick={support}>Support</span>
-                <span>FAQ</span>
+                <span onClick={faq}>FAQ</span>
               </nav>
               <div className="nav-btnsec">
                 <img src={search} />
