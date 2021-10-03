@@ -12,6 +12,7 @@ const FAQ = () => {
   return (
     <>
       <NavBar />
+      <div className="faqBg">
       <div className="generalContainer faqContainer">
         <h2 className="faqContainerTtl">Have any questions?</h2>
         <div className="faqSectionOneWrap">
@@ -111,7 +112,7 @@ const FAQ = () => {
           If you can not find your answer in FAQ, you can always contact us. We
           will answer you shortly!
         </p>
-      </div>
+      </div></div>
       <Footer />
     </>
   );

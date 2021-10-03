@@ -81,9 +81,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    background: #f0f0f0;
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+.aboutThreeBg {
+
+    background: #f0f0f0;
 }
 .aboutSectionThreeItem {
     max-width: 250px;

@@ -1,10 +1,13 @@
+.homeOneBg {
+
+    background: #fbfbfb;
+}
 .homeSectionOne {
     display: flex;
     justify-content: space-between;
     padding-top: 4rem;
     padding-bottom: 4rem;
     align-items: center;
-    background: #fbfbfb;
 }
 .homeSectionOneVector {
     position: absolute;
@@ -64,8 +67,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.homeSectionThreeItemWrap {
+.homeSectionThreeItemWrapBg {
+
     background: #f0f0f0;
+}
+.homeSectionThreeItemWrap {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;

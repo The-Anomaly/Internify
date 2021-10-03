@@ -50,6 +50,8 @@ html {
 .generalContainer {
   padding-left: 10%;
   padding-right: 10%;
+  max-width: 1200px;
+  margin: auto;
 }
 .appBtnFill {
   background: #5D3FD3;

@@ -29,7 +29,8 @@ const NavBar = () => {
   }
     return (
         <>
-          <div className="generalContainer navContainer">
+        <div className="navContainer">
+          <div className="generalContainer">
             <div className="nav-desktop">
               <div role="button" onClick={home}  className="nav-logosec">
                 <img src={logo} alt="internify logo" /><h2>INTERNIFY</h2>
@@ -46,6 +47,7 @@ const NavBar = () => {
                 <button onClick={register} className="appBtnFill ">Register</button>
               </div>
           </div></div>
+          </div>
         </>
     )
 }

@@ -1,5 +1,8 @@
-.footer {
+.footerBg {
+
     background: #2A2E39;
+}
+.footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: #fff;

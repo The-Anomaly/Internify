@@ -26,6 +26,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
+      <div className="homeOneBg">
       <div className="homeSectionOne generalContainer">
         <img className="homeSectionOneVector" src={sectionOneVector} />
         <div className="homeSectionOneInfo">
@@ -37,6 +38,8 @@ const Home = () => {
         </div>
         <img className="homeSectionOneImg" src={sectionOne} />
       </div>
+      </div>
+      <div className="homeOneBg">
       <div className="homeSectionTwo generalContainer">
         <div className="homeSectionTwoInputWrap">
           <input
@@ -48,11 +51,12 @@ const Home = () => {
             <img src={search} />
           </button>
         </div>
-      </div>
+      </div></div>
       <div className="homeSectionThree">
         <h2 className="homeSectionThreeTtl">
           What Internify will do for you !
         </h2>
+        <div className="homeSectionThreeItemWrapBg">
         <div className="homeSectionThreeItemWrap generalContainer">
           <div className="homeSectionThreeItem">
             <div className="homeSectionThreeItem1">
@@ -85,7 +89,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div></div>
       <div className="homeSectionFour">
         <h2 className="homeSectionFoutTtl">Be inspired by success stories</h2>
         <div className="homeSectionFourItemWrap generalContainer">
