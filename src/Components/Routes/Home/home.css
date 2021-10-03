@@ -155,6 +155,7 @@
     font-style: italic;
     margin-left: 1rem;
     line-height: 1;
+    padding-left: 10%;
 }
 .homeSectionFiveTtl span {
     display: block;
@@ -164,18 +165,18 @@
     margin-left: -2rem;
 }
 .homeSectionFiveListWrap {
-    margin: 4rem auto;
     background: #fff;
     border-radius: 8px;
     padding: 1rem 0;
-    max-width: 600px;
+    width: 100%;
+    max-width: 500px
 }
 .homeSectionFiveListHd {
     display: grid;
     /* grid-template-columns: 3fr 1fr 1fr; */
     border-bottom: 2px solid #5D3FD3;
-    padding: 10px 2rem;
-    margin-bottom: 1.5rem;
+    padding: 5px 2rem;
+    margin-bottom: 1.2rem;
 }
 .homeSectionFiveList {
     margin: 0
@@ -183,8 +184,12 @@
 .homeSectionFiveListItem {
     display: grid;
     /* grid-template-columns: 3fr 1fr 1fr; */
-    padding: 4px 0;
+    padding: 6px 0;
     font-size: 20px;
+}
+.homeSectionFiveListItem p {
+    margin-bottom: 5px;
+    /* font-size: 18px; */
 }
 .homeSectionFiveBtn {
     margin: auto;
@@ -200,29 +205,33 @@
     margin-left: 1rem;
 }
 .homeSectionSix {
+    background: #c3b1e1;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.homeSectionSixWrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
 }
 .homeSectionSixTxt {
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
-    line-height: 1.8;
+    margin-top: 4rem;
 }
 .homeSectionSixTxt span {
-    display: block;
     font-weight: 600;
-    font-size: 2.5rem;
-    display: flex;
+    font-size: 2rem;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 .homeSectionSixTxt span img {
     display: inline;
     margin-left: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    width: 16px;
 }
 .homeSectionSixImg {
     margin-left: 4rem;

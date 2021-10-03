@@ -21,8 +21,8 @@ import { useHistory } from "react-router";
 const Home = () => {
   let history = useHistory();
   const applyForPremium = () => {
-    return history.push("/premium")
-  }
+    return history.push("/premium");
+  };
   return (
     <>
       <NavBar />
@@ -106,73 +106,74 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="homeSectionFive generalContainer">
+      
+      
+      <div className="homeSectionSix">
         <h1 className="homeSectionFiveTtl">
           INTERNIFY <span>PREMIUM</span>
         </h1>
-        <div className="homeSectionFiveListWrap">
-          <div className="homeSectionFiveListHd">
-            <h5>What we offer</h5>
-            {/* <h5>Free</h5>
+        <div className="homeSectionSixWrap generalContainer">
+          <div className="homeSectionFiveListWrap">
+            <div className="homeSectionFiveListHd">
+              <h5>What we offer</h5>
+              {/* <h5>Free</h5>
             <h5>Premium</h5> */}
+            </div>
+            <ul className="homeSectionFiveList">
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Unlimited job search results</p>
+                  {/* <img src={notick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Affiliate marketing job</p>
+                  {/* <img src={notick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Availability to blog posts</p>
+                  {/* <img src={tick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Ability to create CV</p>
+                  {/* <img src={notick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>CV exposure</p>
+                  {/* <img src={tick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Access to Skill courses</p>
+                  {/* <img src={notick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+              <li>
+                <div className="homeSectionFiveListItem">
+                  <p>Webinars with educationists</p>
+                  {/* <img src={notick} />
+                <img src={tick} /> */}
+                </div>
+              </li>
+            </ul>
           </div>
-          <ul className="homeSectionFiveList">
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Unlimited job search results</p>
-                {/* <img src={notick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Affiliate marketing job</p>
-                {/* <img src={notick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Availability to blog posts</p>
-                {/* <img src={tick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Ability to create CV</p>
-                {/* <img src={notick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>CV exposure</p>
-                {/* <img src={tick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Access to Skill courses</p>
-                {/* <img src={notick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-            <li>
-              <div className="homeSectionFiveListItem">
-                <p>Webinars with educationists</p>
-                {/* <img src={notick} />
-                <img src={tick} /> */}
-              </div>
-            </li>
-          </ul>
+
+          <img className="homeSectionSixImg" src={sectionSixImg} />
         </div>
-        <button className="appBtnFill homeSectionFiveBtn" onClick={applyForPremium}>
-          Apply <img src={arrow} alt="right arrow" />{" "}
-        </button>
-      </div>
-      <div className="homeSectionSix generalContainer">
         <p className="homeSectionSixTxt">
           Over{" "}
           <span>
@@ -181,7 +182,12 @@ const Home = () => {
           </span>{" "}
           Students Use Internify
         </p>
-        <img className="homeSectionSixImg" src={sectionSixImg} />
+        <button
+          className="appBtnFill homeSectionFiveBtn"
+          onClick={applyForPremium}
+        >
+          Apply <img src={arrow} alt="right arrow" />{" "}
+        </button>
       </div>
       <Footer />
     </>
