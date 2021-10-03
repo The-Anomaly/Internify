@@ -7,3 +7,17 @@
 .login-info .register-form-btnsec {
     margin-bottom: 2rem;
 }
+
+
+@media screen and (max-width: 700px) {
+    .login-wrap {
+        width: 100% !important
+    }
+    .login-info input {
+        margin-bottom: 2.5rem;
+    }
+    .login-info .register-form-btnsec {
+        margin-bottom: 1.5rem;
+    }
+    
+}
