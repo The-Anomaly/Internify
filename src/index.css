@@ -70,7 +70,7 @@ html {
     padding-left: 1rem;
     height: 40px;
 }
-input {
+input, textarea, button {
   outline: none !important;
 }
 

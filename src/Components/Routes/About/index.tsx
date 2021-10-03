@@ -138,7 +138,7 @@ const About = () => {
                   <input className="internify-input aboutInput" />
               </label>
               </div>
-              <label className="aboutSectionFourLabel fillHalf" > Phone:
+              <label className="aboutSectionFourLabel fillHalf" > Message:
                   <textarea className="aboutTextarea" />
               </label>
           </form>
