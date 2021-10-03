@@ -1,158 +1,195 @@
 .createContainer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .createLogo {
-    display: block;
-    margin: auto auto 2rem;
+  display: block;
+  margin: auto auto 2rem;
 }
 .createTtl {
-    text-align: center;
-    color: #5D3FD3;
-    font-weight: 700;
-    transform: skewX(
--8deg);
+  text-align: center;
+  color: #5d3fd3;
+  font-weight: 700;
+  transform: skewX(-8deg);
 }
 .createTxt {
-    text-align: center;
-    color: #5D3FD3;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 4rem;
+  text-align: center;
+  color: #5d3fd3;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 4rem;
 }
 .fullWidth {
-    width: 90%;
-    margin-left: 2rem;
-    /* width: 450px; */
+  width: 90%;
+  margin-left: 2rem;
+  /* width: 450px; */
 }
 .createInputWrapSec {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 .createInputWrap {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
 }
 .nextWrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .nextWrap .longInput {
-    width: calc(90% - 124px);
-    margin-left: 128px;
+  width: calc(90% - 124px);
+  margin-left: 128px;
 }
 .createInputWrap span {
-    width: 120px;
+  width: 120px;
 }
 .createTextarea {
-    height: 150px;
+  height: 150px;
 }
 .createAdd {
-    background: #5D3FD3;
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 0;
-    width: 46px;
-    height: 28px;
-    border-radius: 4px;
-    border: 1px solid #c4c4c4;
-    margin-left: 10px;
-    margin-top: auto;
+  background: #5d3fd3;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 0;
+  width: 46px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  margin-left: 10px;
+  margin-top: auto;
 }
 .btnInput {
-    width: calc(90% - 60px);
-    margin-left: 2rem;
+  width: calc(90% - 60px);
+  margin-left: 2rem;
 }
 .longInput {
-    height: 60px;
+  height: 60px;
 }
 
 .createSwitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.createSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.createSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 50px !important;
+}
+
+.createSlider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.createSwitch input:checked + .createSlider {
+  background-color: #5d3fd3;
+}
+
+.createSwitch input:focus + .createSlider {
+  box-shadow: 0 0 1px #5d3fd3;
+}
+
+.createSwitch input:checked + .createSlider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.createSlider.round {
+  border-radius: 34px;
+}
+
+.createSlider.round:before {
+  border-radius: 50%;
+}
+.workInputWrap {
+  background: #f5f5f5;
+  padding: 1rem;
+  height: unset;
+}
+.workInputWrap span {
+  width: 80px;
+}
+.workInputWrap label {
+  width: 100%;
+  display: flex;
+}
+.workInputWrap input {
+  height: 30px;
+  width: calc(100% - 90px);
+  margin-left: auto;
+}
+.dobInputWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.dobInputWrap input {
+  width: 30%;
+  height: 24px;
+}
+
+@media screen and (max-width: 700px) {
+  .createLogo {
+    width: 50px;
+  }
+  .createTtl {
+    font-size: 2rem;
+  }
+  .createTxt {
+    font-size: 18px;
+  }
+  .createInputWrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .createInputWrap .fullWidth,
+  .btnInput,
+  .nextWrap .longInput {
+    margin: 0;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .createAdd {
+    margin-top: 1rem;
+    margin-left: auto;
+  }
+  .nextWrap {
     position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 24px;
-    margin-right: auto;
-    margin-left: 10px;
   }
-  
-  .createSwitch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .createSlider {
+  .createSwitch {
+    margin-left: auto;
+    margin-right: 0;
     position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-    width: 50px !important;
+    margin-bottom: 0;
+    top: 1rem;
   }
-  
-  .createSlider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .createSwitch input:checked + .createSlider {
-    background-color: #5D3FD3;
-  }
-  
-  .createSwitch input:focus + .createSlider {
-    box-shadow: 0 0 1px #5D3FD3;
-  }
-  
-  .createSwitch input:checked + .createSlider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .createSlider.round {
-    border-radius: 34px;
-  }
-  
-  .createSlider.round:before {
-    border-radius: 50%;
-  }
-  .workInputWrap {
-    background: #F5F5F5;
-    padding: 1rem;
-    height: unset;
-  }
-  .workInputWrap span {
-      width: 80px;
-  }
-  .workInputWrap label {
-      width: 100%;
-      display: flex;
-  }
-  .workInputWrap input {
-      height: 30px;
-      width: calc(100% - 90px);
-      margin-left: auto;
-  }
-  .dobInputWrap {
-      display: flex;
-      justify-content: space-between;
-  }
-  .dobInputWrap input {
-      width: 30%;
-      height: 24px;
-  }
+}
