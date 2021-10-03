@@ -39,13 +39,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2a2e39;
+  background: #5D3FD3;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a2e39;
+  background: #5D3FD3;
 }
 
 .generalContainer {
