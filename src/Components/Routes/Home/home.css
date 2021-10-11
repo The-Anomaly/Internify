@@ -18,6 +18,7 @@
 .homeSectionOneInfo {
   width: 50%;
   position: relative;
+  margin-top: -12%;
 }
 .homeSectionOneTxt1 {
   font-weight: 600;
@@ -259,6 +260,9 @@
   }
   .homeSectionOneVector {
     width: 65%;
+  }
+  .homeSectionOneInfo {
+    margin-top: 0;
   }
 }
 
