@@ -1,7 +1,7 @@
 .login-wrap {
-    width: 60% !important;
+    /* width: 60% !important;
     height: 100vh;
-    min-height: 600px;
+    min-height: 600px; */
 }
 .login-info input {
     margin-bottom: 3.5rem;
@@ -17,7 +17,7 @@
   }
 @media screen and (max-width: 700px) {
     .login-wrap {
-        width: 100% !important;
+        /* width: 100% !important; */
         justify-content: flex-end;
     }
     .login-info input {

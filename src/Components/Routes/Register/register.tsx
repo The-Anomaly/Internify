@@ -11,11 +11,20 @@ const Register = () => {
   const create = () => {
     return history.push("/cv/create");
   };
+  const home = () => {
+    return history.push("/");
+  };
   return (
     <>
       <div className="register-wrap">
         <div className="register-info">
-          <img className="register-info-img" src={logo} alt="" />
+          <img
+            role="button"
+            onClick={home}
+            className="register-info-img"
+            src={logo}
+            alt=""
+          />
           <h3 className="register-ttl">REGISTER TO INTERNIFY</h3>
           <p className="register-txt">
             Already registered? <span onClick={login}>Login</span>

@@ -29,8 +29,9 @@
   color: #5d3fd3;
 }
 .homeSectionOneImg {
-  width: 50%;
-  max-width: 400px;
+  width: 55%;
+    margin-right: -10%;
+ 
 }
 .homeSectionTwo {
   padding-top: 2rem;
@@ -241,10 +242,17 @@
   margin-left: 4rem;
   width: 35%;
 }
-
+@media screen and (max-width: 1200px) {
+  .homeSectionOneImg {
+    width: 50%;
+    margin-right: -5%;
+  }
+}
 @media screen and (max-width: 900px) {
   .homeSectionOneImg {
-    width: 40%;
+    width: 45%;
+    margin-right: 0;
+    max-width: 400px;
   }
   .homeSectionOneTxt2 {
     font-size: 2.25rem;

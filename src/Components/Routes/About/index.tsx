@@ -66,12 +66,17 @@ const About = () => {
           Student First Initiative For Internships in Nigeria.
         </h1>
         <div className="aboutSectionOneImgSec">
-          <img src={Img1} alt="" />
+          <div className="aboutSectionOneImg1"></div>
+          <div className="aboutSectionOneImg2"></div>
+          <div className="aboutSectionOneImg3"></div>
+          <div className="aboutSectionOneImg4"></div>
+
+          {/* <img src={Img1} alt="" />
           <div>
             <img src={Img2} alt="" />
             <img src={Img3} alt="" />
           </div>
-          <img src={Img4} alt="" />
+          <img src={Img4} alt="" /> */}
         </div>
       </div>
       <div className="aboutSectionTwo">
