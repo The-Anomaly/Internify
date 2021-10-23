@@ -9,6 +9,7 @@ import Home from "./Components/Routes/Home/home";
 import Login from "./Components/Routes/Login/login";
 import Premium from "./Components/Routes/Premium/premium";
 import Preview from "./Components/Routes/previewCV";
+import Profile from "./Components/Routes/Profile";
 import Register from "./Components/Routes/Register/register";
 import SearchResult from "./Components/Routes/SearchResult";
 import Details from "./Components/Routes/SearchResultDetails";
@@ -32,6 +33,7 @@ const App = () => {
               <Route exact path="/cv/create" component={Create} />
               <Route exact path="/cv/preview" component={Preview} />
               <Route exact path="/faq" component={FAQ} />
+              <Route exact path="/profile" component={Profile} />
             </Switch>
           </BrowserRouter>
         </div>

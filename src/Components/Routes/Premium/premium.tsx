@@ -10,7 +10,7 @@ const Premium = () => {
       <NavBar />
       <div className="premiumsectionOne generalContainer">
         <h1 className="premiumsectionOneTtl">
-          INTERNIFY <span>PREMIUM</span>
+          INTERNIFY <span>OFFERINGS</span>
         </h1>
         <div className="premiumsectionOneWrap">
           <div className="premiumsectionOneInfo">

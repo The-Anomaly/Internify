@@ -114,7 +114,7 @@ const Home = () => {
       
       <div className="homeSectionSix">
         <h1 className="homeSectionFiveTtl">
-          INTERNIFY <span>PREMIUM</span>
+          INTERNIFY <span>FEATURES</span>
         </h1>
         <div className="homeSectionSixWrap generalContainer">
           <div className="homeSectionFiveListWrap">
