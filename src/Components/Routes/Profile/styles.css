@@ -102,6 +102,48 @@
     border-radius: 8px;
     padding: 5px 2rem;
 }
+.profileModal {
+    font-family: 'Roboto Condensed';
+}
+.profileModal .modal-dialog {
+    max-width: 400px;
+}
+.profileModal .modal-body {
+    padding: 3rem 1.5rem;
+}
+.profileModalTtl {
+    border-bottom: 1px solid #5D3FD3;
+    margin-bottom: 2.4rem;
+}
+.profileModalTtl h4 {
+    color: #5D3FD3;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans';
+    padding-left: 1rem;
+}
+.profileModalForm {
+
+}
+.profileModalTxt {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+.profileModalBtn1 {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 1.8rem;
+}
+.profileModalBtn2 {
+    border: none;
+    width: 100%;
+    font-size: 12px;
+    background: transparent;
+    margin-top: 12px;
+    color: #0000FF;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 600px) {
     .profileBody {
