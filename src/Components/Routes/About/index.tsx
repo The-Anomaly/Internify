@@ -2,10 +2,6 @@ import * as React from "react";
 import "./styles.css";
 import NavBar from "../../GeneralComponents/NavBar/navbar";
 import Footer from "../../GeneralComponents/Footer/footer";
-import Img1 from "../../../assets/images/blogOne.png";
-import Img2 from "../../../assets/images/aboutImg1.png";
-import Img3 from "../../../assets/images/aboutImg2.png";
-import Img4 from "../../../assets/images/aboutImg4.png";
 import avatar from "../../../assets/images/avatar.png";
 
 const team = [

@@ -15,7 +15,7 @@ const Profile = () => {
           </div>
           <label className="profileAvatarUpload" htmlFor="avatar">
             Change Profile Picture
-            <input type="image" id="avatar" />
+            <input type="image" id="avatar" alt="avatar" />
           </label>
           <form className="profileForm">
             <div className="profileInputWrap">

@@ -10,8 +10,6 @@ import searchRed from "../../../assets/vectors/searchIconRed.svg";
 import blogOne from "../../../assets/images/blogOne.png";
 import blogTwo from "../../../assets/images/blogTwo.png";
 import blogThree from "../../../assets/images/blogThree.png";
-import notick from "../../../assets/vectors/purpleClose.svg";
-import tick from "../../../assets/vectors/purpleTick.svg";
 import arrow from "../../../assets/vectors/arrowRight.svg";
 import sectionSixImg from "../../../assets/images/sectionSixImg.png";
 import plus from "../../../assets/vectors/purplePlus.svg";
@@ -28,7 +26,7 @@ const Home = () => {
       <NavBar />
       <div className="homeOneBg">
       <div className="homeSectionOne generalContainer">
-        <img className="homeSectionOneVector" src={sectionOneVector} />
+        <img className="homeSectionOneVector" src={sectionOneVector} alt=""  />
         <div className="homeSectionOneInfo">
           <p className="homeSectionOneTxt1">Jump Start Your Career</p>
           <h1 className="homeSectionOneTxt2">
@@ -36,7 +34,7 @@ const Home = () => {
             <span>Internships</span> in Nigeria.
           </h1>
         </div>
-        <img className="homeSectionOneImg" src={sectionOne} />
+        <img className="homeSectionOneImg" src={sectionOne} alt="" />
       </div>
       </div>
       <div className="homeOneBg">
@@ -48,7 +46,7 @@ const Home = () => {
             type="text"
           />
           <button className="homeSectionTwoBtn appBtnFill">
-            <img src={search} />
+            <img src={search} alt="search"  />
           </button>
         </div>
       </div></div>
@@ -60,7 +58,7 @@ const Home = () => {
         <div className="homeSectionThreeItemWrap generalContainer">
           <div className="homeSectionThreeItem">
             <div className="homeSectionThreeItem1">
-              <img src={profiling} />
+              <img src={profiling} alt=""  />
             </div>
             <h6>Company Profiling</h6>
             <p>
@@ -70,7 +68,7 @@ const Home = () => {
           </div>
           <div className="homeSectionThreeItem">
             <div className="homeSectionThreeItem2">
-              <img src={searchRed} />
+              <img src={searchRed} alt=""  />
             </div>
             <h6>Target Audience</h6>
             <p>
@@ -80,7 +78,7 @@ const Home = () => {
           </div>
           <div className="homeSectionThreeItem">
             <div className="homeSectionThreeItem3">
-              <img src={generate} />
+              <img src={generate} alt=""  />
             </div>
             <h6>CV Generator</h6>
             <p>
@@ -94,17 +92,17 @@ const Home = () => {
         <h2 className="homeSectionFoutTtl">Be inspired by success stories</h2>
         <div className="homeSectionFourItemWrap generalContainer">
           <div className="homeSectionFourItem">
-            <img src={blogOne} />
+            <img src={blogOne} alt=""  />
             <p>Blog Post</p>
             <p>IT placement</p>
           </div>
           <div className="homeSectionFourItem">
-            <img src={blogTwo} />
+            <img src={blogTwo} alt=""  />
             <p>Blog Post</p>
             <p>Must i have a skill to apply for Internship?</p>
           </div>
           <div className="homeSectionFourItem">
-            <img src={blogThree} />
+            <img src={blogThree} alt=""  />
             <p>Blog Post</p>
             <p>Difficulty getting the right company!</p>
           </div>
@@ -120,63 +118,47 @@ const Home = () => {
           <div className="homeSectionFiveListWrap">
             <div className="homeSectionFiveListHd">
               <h5>What we offer</h5>
-              {/* <h5>Free</h5>
-            <h5>Premium</h5> */}
             </div>
             <ul className="homeSectionFiveList">
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Unlimited job search results</p>
-                  {/* <img src={notick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Affiliate marketing job</p>
-                  {/* <img src={notick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Availability to blog posts</p>
-                  {/* <img src={tick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Ability to create CV</p>
-                  {/* <img src={notick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>CV exposure</p>
-                  {/* <img src={tick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Access to Skill courses</p>
-                  {/* <img src={notick} />
-                <img src={tick} /> */}
                 </div>
               </li>
               <li>
                 <div className="homeSectionFiveListItem">
                   <p>Webinars with educationists</p>
-                  {/* <img src={notick} />
-                <img src={tick} /> */}
                 </div>
               </li>
             </ul>
           </div>
 
-          <img className="homeSectionSixImg" src={sectionSixImg} />
+          <img className="homeSectionSixImg" src={sectionSixImg} alt=""  />
         </div>
         <p className="homeSectionSixTxt">
           Over{" "}

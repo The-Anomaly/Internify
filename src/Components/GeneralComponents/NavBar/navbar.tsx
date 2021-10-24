@@ -123,7 +123,7 @@ const NavBar = () => {
                   <img src={searchicon} alt="search" />
                 </div>,
                 <div role="button" onClick={login}>Login</div>,
-                <button role="button" onClick={register} className="appBtnFill nav-mobile-btn">Register</button>,
+                <button onClick={register} className="appBtnFill nav-mobile-btn">Register</button>,
               ]}
             />
             <nav className="nav-ctrl">
